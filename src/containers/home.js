@@ -1,10 +1,10 @@
 // Copyright 2020 MaidSafe.net limited.
 //
-// This SAFE Network Software is licensed to you under the MIT license <LICENSE-MIT
+// This Autonomi Software is licensed to you under the MIT license <LICENSE-MIT
 // http://opensource.org/licenses/MIT> or the Modified BSD license <LICENSE-BSD
 // https://opensource.org/licenses/BSD-3-Clause>, at your option. This file may not be copied,
 // modified, or distributed except according to those terms. Please review the Licences for the
-// specific language governing permissions and limitations relating to use of the SAFE Network
+// specific language governing permissions and limitations relating to use of the Autonomi
 // Software.
 
 import React from 'react'
@@ -20,7 +20,7 @@ class Banner extends React.Component {
       <div className="hm-bnr">
         <div className="hm-bnr-b base">
           <p className="hm-bnr-para typo-bold-para-1">
-            MaidSafe, builders of <a href="https://safenetwork.tech">the SAFE Network</a>, are a small team of: thinkers, inventors, tinkerers, engineers and designers started by Scottish engineer David Irvine in 2006.
+            MaidSafe, builders of <a href="https://autonomi.com">Autonomi</a>, are a small team of: thinkers, inventors, tinkerers, engineers and designers started by Scottish engineer David Irvine in 2006.
           </p>
         </div>
       </div>
@@ -35,7 +35,7 @@ class Intro extends React.Component {
         <div className="hm-intro-b base">
           <h3 className="hm-intro-h typo-head-1">Intro to MaidSafe</h3>
           <p className="hm-intro-p typo-para-1">
-            Based in Ayr, Scotland, MaidSafe have drawn talents from many cultures and countries, reflecting the users that we serve. Despite this variety, we all share a mission: a desire to provide security and privacy for everyone on the planet. This has been our unwavering ambition since we started on this journey in 2006, and it remains our driving force today.
+            Based in Scotland, MaidSafe have drawn talents from many cultures and countries, reflecting the users that we serve. We all share a mission: a desire to provide security and privacy for everyone on the planet. This has been our unwavering ambition since we started on this journey in 2006, and it remains our driving force today.
           </p>
         </div>
       </section>
@@ -50,7 +50,7 @@ class SafeNet extends React.Component {
         <div className="hm-safenet-b base">
           <div className="hm-safenet-med"><img src={SafeNetworkLogo} alt="SafeNetwork logo" /></div>
           <p className="hm-safenet-p typo-bold-para-2">
-            We will do so by building the SAFE Network, the world’s first autonomous and decentralised data network. Be part of creating this new Internet, for the people by the people; visit <a href="https://safenetwork.tech">safenetwork.tech</a> to join us today.<a href="https://safenetwork.tech"><span className="arrow-red sm"></span></a>
+            We will do so by building Autonomi, the world’s first autonomous and decentralised data network. Be part of creating this new Internet, for the people by the people; visit <a href="https://autonomi.com">autonomi.com</a> to join us today.<a href="https://autonomi.com"><span className="arrow-red sm"></span></a>
           </p>
         </div>
       </div>
@@ -73,7 +73,7 @@ class Home extends React.Component {
   componentDidMount() {
     var hash = window.location.hash.substr(1);
     if (hash.toLowerCase() === "safeprimer") {
-      window.location = "https://primer.safenetwork.org";
+      window.location = "https://docs.autonomi.com/learn";
     }
   }
 }
